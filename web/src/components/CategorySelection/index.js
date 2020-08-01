@@ -1,18 +1,26 @@
-import React from 'react';
-import { Form, Label, Select} from './styles';
+import React, { useState } from 'react';
+import { Form, Select, Arrow, Ul, H1} from './styles';
 
 const CategorySelection = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggling = () => setIsOpen(!isOpen);
   return (
     <>
     <Form>
-      <Label>
+      <H1>
         {props.name}
-      </Label>
+      </H1>
       <Select>
-        <option value="0">Selecione uma categoria</option>
-        {props.arr.map(cat => (
-          <option key={cat} value={cat}>{cat}</option>
-        ))}
+        <Ul onClick={toggling}>
+          <li>Selecione uma categoria</li>
+          { isOpen && (
+            props.arr.map(cat =>(
+              <li key={cat}>{cat}</li>
+            ))
+          )}
+        </Ul>
+      <Arrow onClick={toggling}/>
       </Select>
     </Form>
     </>
