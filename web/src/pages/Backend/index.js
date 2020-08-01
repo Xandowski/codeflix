@@ -5,10 +5,10 @@ import dadosIniciais from '../../data/dados_iniciais.json';
 import CategorySelection from '../../components/CategorySelection';
 
 const Frontend = () => {
-  const frontendCategories = ['html', 'css', 'js'];
+  const backendCategories = ['node', 'php', 'java'];
   return (
-    <PageDefault urlVideo={dadosIniciais.categorias[0].videos[1].url} >
-      <CategorySelection name="Frontend" arr={frontendCategories}>
+    <PageDefault urlVideo={dadosIniciais.categorias[0].videos[2].url} >
+      <CategorySelection name="Backend" arr={backendCategories}>
       </CategorySelection>
     </PageDefault>
   )

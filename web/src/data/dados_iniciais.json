@@ -4,8 +4,16 @@
       "titulo": "Videos Populares de Programação",
       "videos": [
         {
+          "titulo": "Conheça o canal da Alura!",
+          "url": "https://www.youtube.com/watch?v=k7IPr-rhrPE"
+        },
+        {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
           "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+        },
+        {
+          "titulo": "Seja um Programador Back-End de Sucesso",
+          "url": "https://youtu.be/TJ90DZjYdWI"
         },
         {
           "titulo": "SEO com React",

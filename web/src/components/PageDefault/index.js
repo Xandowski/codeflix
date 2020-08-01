@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState } from 'react';
 
 import dadosIniciais from '../../data/dados_iniciais.json';
 
@@ -7,27 +7,24 @@ import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
 import Footer from '../Footer';
 
-const PageDefault = ({ children }) => {
-  // const response = api.get('/search', {
-  //   params: {
-  //     q: 'programacao'
-  //   },
+const PageDefault = ({ children, urlVideo }) => {
+  // const [videos, setVideos] = useState('');
+
+  
+  // fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=programacao&key=AIzaSyBu4imdJtasgW67rtUrJO3l8bWEqwXsX3U`, {
+  // method: 'GET',
   // })
-  // console.log(response.data)
-  // fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=programacao&key=AIzaSyAsf96_LYlum-nRDjHZDz8J-sOl69y6fJw`, {
-  //   method: 'GET',
-  //   mode: 'no-cors'
-  // }).then(response => JSON.stringify(response))
-  //   .then(result => console.log(result.data));
+  // .then(resp => resp.json())
+  // .then(result => {
+  //   console.log(result)
+  // })
 
   return (
     <>
       <Menu/>
 
       <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end?"}
+        url={urlVideo}
       />
       {children}
 

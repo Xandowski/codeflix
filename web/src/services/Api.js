@@ -8,9 +8,6 @@ const api =  axios.create({
     maxResults: 5,
     key: KEY,
   },
-  headers: {
-    'Access-Control-Allow-Origin': '*'
-  }
 });
 
 export default api;
