@@ -12,10 +12,9 @@ const Menu = () => {
         <img className="Logo" src={Logo} alt="codeflix logo"/>
       </Link>
       <ul className="links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/frontend">FrontEnd</Link></li>
-        <li><Link to="/backend">BackEnd</Link></li>
-        <li><Link to="/fullstack">FullStack</Link></li>
+        <li><Link to="/">Início</Link></li>
+        <li><Link to="/linguagens">Linguagens</Link></li>
+        <li><Link to="/canais">Canais</Link></li>
       </ul>
 
       <div className="search-bar">

@@ -1,42 +1,55 @@
-import React, {useState } from 'react';
-
-import dadosIniciais from '../../data/dados_iniciais.json';
+import React from 'react';
 
 import Menu from '../Menu';
 import BannerMain from '../../components/BannerMain';
-import Carousel from '../../components/Carousel';
 import Footer from '../Footer';
 
-const PageDefault = ({ children, urlVideo }) => {
-  // const [videos, setVideos] = useState('');
+import CategorySelection from '../CategorySelection';
+import Carousel from '../../components/Carousel';
 
-  
-  // fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=programacao&key=AIzaSyBu4imdJtasgW67rtUrJO3l8bWEqwXsX3U`, {
-  // method: 'GET',
-  // })
-  // .then(resp => resp.json())
-  // .then(result => {
-  //   console.log(result)
-  // })
+const PageDefault = ({ urlVideo, data, page, children }) => {
+  const languages = ['javascript', 'python', 'java', 'c#'];
 
   return (
     <>
       <Menu/>
 
-      <BannerMain
-        url={urlVideo}
-      />
+      {
+        page !== 'canais' && (
+          <BannerMain
+            url={urlVideo}
+          />
+        )
+      }
+      {
+        page === 'linguagens' && (
+          <CategorySelection 
+            name="Linguagens" 
+            arr={languages}
+            data={data}
+          >
+          </CategorySelection>
+        )
+      }
+      {
+        page === 'home' && (
+          data.map((category) => {
+            if(category.titulo === 'Videos Populares sobre Programação'){
+              return <Carousel
+                      key={category.titulo}
+                      ignoreFirstVideo
+                      category={category}
+                    />
+            }else {
+              return <Carousel
+                        key={category.titulo}
+                        category={category}
+                      />
+            }
+          })
+        )
+      }
       {children}
-
-      <Carousel 
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-
-      <Carousel 
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[1]}
-      />
 
       <Footer/>
     </>

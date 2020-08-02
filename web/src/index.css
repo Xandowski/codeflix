@@ -16,9 +16,14 @@
   --backEnd: #00C86F;
 }
 
-html,
-body,
 #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 90vh;
+}
+
+html,
+body{
   height: 100vh;
 }
 

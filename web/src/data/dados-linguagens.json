@@ -1,0 +1,158 @@
+{
+  "categorias": [
+    {
+      "titulo": "Linguagens Mais Populares",
+      "videos": [
+        {
+          "titulo": "20 PREVISÕES PARA 2020 (Programação, Web, Hospedagem, DevOps, Database, I.A., Low-code...)",
+          "url": "https://youtu.be/5WwFXeHSZHE"
+        },
+        {
+          "titulo": "O que é JavaScript? | #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=NaVSbnnV75Q"
+        },
+        {
+          "titulo": "O que é Python? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=-LATVnPcvHI"
+        },
+        {
+          "titulo": "O que é o Java? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=90NcVNsKGik"
+        },
+        {
+          "titulo": "O que é o C#? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA"
+        },
+        {
+          "titulo": "Maiores Salários e Quais Tecnologias São Mais Amadas, Odiadas e Desejadas (2020)",
+          "url": "https://www.youtube.com/watch?v=OPv6p213AC8"
+        }
+      ]
+    },
+    {
+      "titulo": "Frameworks",
+      "videos": [
+        {
+          "titulo": "O que é React JS? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=6IuQUgeDPg0"
+        },
+        {
+          "titulo": "O que é Angular e AngularJS? #HipstersPontoTube",
+          "url": "https://youtu.be/LFlNU30u7d8"
+        },
+        {
+          "titulo": "Frameworks // Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=2zqzzTnfa0E"
+        },
+        {
+          "titulo": "Para o que serve o Django?",
+          "url": "https://www.youtube.com/watch?v=vhv82UCIt3k"
+        },
+        {
+          "titulo": "O que é Spring Framework? #Hipsterspontotube",
+          "url": "https://www.youtube.com/watch?v=5XPojnx9bb8"
+        },
+        {
+          "titulo": "Workshop: Asp .NET Core para Iniciantes - Introdução",
+          "url": "https://youtu.be/njlmcXxSHE4"
+        }
+      ]
+    },
+    {
+      "titulo": "JavaScript",
+      "videos": [
+        {
+          "titulo": "O que é JavaScript? | #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=NaVSbnnV75Q"
+        },
+        {
+          "titulo": "O que o JavaScript é capaz de fazer? - Curso JavaScript #01",
+          "url": "https://youtu.be/Ptbk2af68e8"
+        },
+        {
+          "titulo": "Tutorial completo de como programar o Fogo do DOOM (JavaScript puro)",
+          "url": "https://www.youtube.com/watch?v=fxm8cadCqbs"
+        },
+        {
+          "titulo": "Dynamic Imports - Novas funcionalidades do JavaScript no ES2020",
+          "url": "https://youtu.be/zjN7pbK7aKQ"
+        },
+        {
+          "titulo": "Curso Javascript Completo 2020 [Iniciantes] + 14 Mini-Projetos",
+          "url": "https://youtu.be/i6Oi-YtXnAU"
+        },
+        {
+          "titulo": "Validação de forms customizada com HTML e JavaScript | Code/Drops #32",
+          "url": "https://www.youtube.com/watch?v=GTMEuHxh8aQ"
+        },
+        {
+          "titulo": "Eu quero saber se você consegue responder essas 3 perguntas de JavaScript!",
+          "url": "https://youtu.be/QVrrqgDhhu4"
+        },
+        {
+          "titulo": "Como funciona o var, let e const? #01",
+          "url": "https://youtu.be/EFoEqHIwxqY"
+        },
+        {
+          "titulo": "7 dicas de como NÃO escrever seu código JavaScript - DevMedia",
+          "url": "https://youtu.be/0KeOOmBhSC4"
+        },
+        {
+          "titulo": "Andre Garzia - Fazendo drinks com JavaScript",
+          "url": "https://youtu.be/pLjEy7UjVHs"
+        }  
+      ]
+    },
+    {
+      "titulo": "Python",
+      "videos": [
+        {
+          "titulo": "O que é Python? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=-LATVnPcvHI"
+        },
+        {
+          "titulo": "",
+          "url": ""
+        },
+        {
+          "titulo": "",
+          "url": ""
+        },
+        {
+          "titulo": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "titulo": "Java",
+      "videos": [
+        {
+          "titulo": "O que é o Java? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=90NcVNsKGik"
+        },
+        {
+          "titulo": "",
+          "url": ""
+        },
+        {
+          "titulo": "",
+          "url": ""
+        },
+        {
+          "titulo": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "titulo": "C#",
+      "videos": [
+        {
+          "titulo": "O que é o C#? #HipstersPontoTube",
+          "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA"
+        }
+      ]
+    }
+  ]
+}

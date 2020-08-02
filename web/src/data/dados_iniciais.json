@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Videos Populares de Programação",
+      "titulo": "Videos Populares sobre Programação",
       "videos": [
         {
           "titulo": "Conheça o canal da Alura!",
@@ -16,28 +16,16 @@
           "url": "https://youtu.be/TJ90DZjYdWI"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Programador no Primeiro dia de Emprego | Lucas Montano Show Piloto",
+          "url": "https://youtu.be/so8LDB665I8"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-        },
-        {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-        },
-        {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "3 Técnicas Que Eu Uso Para Aprender a Programar Qualquer Coisa (mesmo sem ter o dom da programação)",
+          "url": "https://youtu.be/ZtMzB5CoekE"
         },
         {
           "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
           "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
         },
         {
           "titulo": "Base para aprender os frameworks",
@@ -46,119 +34,93 @@
       ]
     },
     {
-      "titulo": "Top Educadores",
+      "titulo": "Cursos e tutoriais",
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Curso Python #01 - Seja um Programador",
+          "url": "https://youtu.be/S9uPNppGsGo"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "01 - INTRODUÇÃO - JAVA SCRIPT - TORNE-SE UM PROGRAMADOR",
+          "url": "https://www.youtube.com/watch?v=OVfEnjWR65M"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Pare de chutar e aprenda a display: inline #01",
+          "url": "https://youtu.be/5PS6ku8NzIE"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Curso de Java 01: Introdução e Dicas para quem está Começando",
+          "url": "https://youtu.be/LnORjqZUMIQ"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "VOCÊ SABE EXTRAIR INFORMAÇÕES DE DADOS? | Análise de Dados #1",
+          "url": "https://youtu.be/RlGOaSPFtXc"
+        },
+        {
+          "titulo": "#SENSOR O que é? Como usar?",
+          "url": "https://www.youtube.com/watch?v=BLiQRoZI3QY"
+        },
+        {
+          "titulo": "Workshop: Asp .NET Core para Iniciantes - Introdução",
+          "url": "https://youtu.be/njlmcXxSHE4"
+        },
+        {
+          "titulo": "Manipulação de DOM com JavaScript, do zero, na prática | Masterclass #18",
+          "url": "https://youtu.be/UftSB4DaRU4"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Filmes Sobre Programação e Ficção",
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Interestelar",
+          "url": "https://www.youtube.com/watch?v=hHBsKHVLAYc"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "A rede social",
+          "url": "https://www.youtube.com/watch?v=6VtX6przSlI"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Ela",
+          "url": "https://www.youtube.com/watch?v=TggD91pV6KE"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Matrix",
+          "url": "https://www.youtube.com/watch?v=2KnZac176Hs"
+        },
+        {
+          "titulo": "Upgrade",
+          "url": "https://www.youtube.com/watch?v=nv-TAm0-zyk"
+        },
+        {
+          "titulo": "O jogo da imitação",
+          "url": "https://www.youtube.com/watch?v=YIkKbMcJL_4"
+        },
+        {
+          "titulo": "O preço do amanhã",
+          "url": "https://www.youtube.com/watch?v=XUSt9oZUTrs"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Séries Sobre Programação e Ficção",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Mr Robot",
+          "url": "https://www.youtube.com/watch?v=8qZYW_1hj2g"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Halt and cath fire",
+          "url": "https://www.youtube.com/watch?v=pWrioRji60A"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Silicon valley",
+          "url": "https://www.youtube.com/watch?v=lqgM8ZdAqKo"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "videos": [
-        {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-        },
-        {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-        },
-        {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
-        },
-        {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
-        }
-      ]
-    },
-    {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "videos": [
-        {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
-        },
-        {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
-        },
-        {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        },
-        {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
-        },
-        {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Rick and Morty",
+          "url": "https://www.youtube.com/watch?v=jXE86_Y3N-8"
         }
       ]
     }
