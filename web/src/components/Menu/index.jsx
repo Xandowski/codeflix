@@ -15,7 +15,6 @@ const Menu = () => (
     <Links>
       <li><Link to="/">Início</Link></li>
       <li><Link to="/linguagens">Linguagens</Link></li>
-      <li><Link to="/canais">Canais</Link></li>
     </Links>
 
     <SearchBar className="search-bar">

@@ -1,30 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import VideoIframeResponsive from './components/VideoIframeResponsive';
+import VideoPlayerComponent from './components/VideoPlayerComponent';
+import VideoInformations from './components/VideoInformations';
 import BannerMainContainer from './styles';
 
-function getYouTubeId(youtubeURL) {
-  return youtubeURL
-    .replace(
-      /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
-      '$7',
-    );
-}
-
-const BannerMain = ({ url }) => {
-  const youTubeID = getYouTubeId(url);
-
-  return (
-    <BannerMainContainer>
-      <VideoIframeResponsive
-        youtubeID={youTubeID}
-      />
-    </BannerMainContainer>
-  );
-};
+const BannerMain = ({ pathVideo, title, description }) => (
+  <BannerMainContainer>
+    <VideoPlayerComponent
+      video={pathVideo}
+      autoplay
+      controls={false}
+    />
+    <VideoInformations title={title} desc={description} />
+  </BannerMainContainer>
+);
 
 BannerMain.propTypes = {
-  url: PropTypes.string.isRequired,
+  pathVideo: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default BannerMain;

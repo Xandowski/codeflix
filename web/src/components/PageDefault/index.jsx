@@ -9,9 +9,10 @@ import CategorySelection from '../CategorySelection';
 import Carousel from '../Carousel';
 
 const PageDefault = ({
-  urlVideo, data, page, children,
+  // eslint-disable-next-line react/prop-types
+  video, data, page, titleVideo, descVideo,
 }) => {
-  const languages = ['javascript', 'python', 'java', 'c#'];
+  const languages = ['Selecione uma linguagem', 'javascript', 'python', 'java', 'c#'];
 
   return (
     <>
@@ -20,7 +21,9 @@ const PageDefault = ({
       {
         page !== 'canais' && (
           <BannerMain
-            url={urlVideo}
+            pathVideo={video}
+            title={titleVideo}
+            description={descVideo}
           />
         )
       }
@@ -35,6 +38,7 @@ const PageDefault = ({
       }
       {
         page === 'home' && (
+          // eslint-disable-next-line react/prop-types
           data.map((category) => {
             if (category.titulo === 'Videos Populares sobre Programação') {
               return (
@@ -49,12 +53,12 @@ const PageDefault = ({
               <Carousel
                 key={category.titulo}
                 category={category}
+                ignoreFirstVideo={false}
               />
             );
           })
         )
       }
-      {children}
 
       <Footer />
     </>
@@ -62,10 +66,10 @@ const PageDefault = ({
 };
 
 PageDefault.propTypes = {
-  urlVideo: PropTypes.string.isRequired,
-  data: PropTypes.isRequired,
+  video: PropTypes.string.isRequired,
   page: PropTypes.string.isRequired,
-  children: PropTypes.isRequired,
+  titleVideo: PropTypes.string.isRequired,
+  descVideo: PropTypes.string.isRequired,
 };
 
 export default PageDefault;

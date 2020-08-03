@@ -27,6 +27,10 @@ body{
   height: 100vh;
 }
 
+video {
+  width: 100vw;
+}
+
 body{
   background-color: #141414;
   overflow-x: hidden;

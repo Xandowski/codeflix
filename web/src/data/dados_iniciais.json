@@ -5,7 +5,8 @@
       "videos": [
         {
           "titulo": "Conheça o canal da Alura!",
-          "url": "https://www.youtube.com/watch?v=k7IPr-rhrPE"
+          "url": "https://www.youtube.com/watch?v=k7IPr-rhrPE",
+          "description": "Acompanhe conteúdos de Tecnologia, Design e Negócios digitais tanto em aulas curtas e práticas, quanto em webséries, como o Hipsters Ponto Tube. Conheça a Alura: http://bit.ly/aluracursosonline"
         },
         {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",

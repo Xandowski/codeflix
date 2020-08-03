@@ -38,8 +38,8 @@ const Carousel = ({ ignoreFirstVideo, category }) => {
 };
 
 Carousel.propTypes = {
-  ignoreFirstVideo: PropTypes.isRequired,
-  category: PropTypes.isRequired,
+  ignoreFirstVideo: PropTypes.bool.isRequired,
+  category: PropTypes.any.isRequired,
 };
 
 export default Carousel;

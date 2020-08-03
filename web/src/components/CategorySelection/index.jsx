@@ -24,6 +24,8 @@ const CategorySelection = ({ name, arr, data }) => {
       setDataLanguages([dadosLinguagens.categorias[4]]);
     } else if (liValue === 'c#') {
       setDataLanguages([dadosLinguagens.categorias[5]]);
+    } else {
+      setDataLanguages([dadosLinguagens.categorias[0], dadosLinguagens.categorias[1]]);
     }
   };
 
@@ -35,7 +37,6 @@ const CategorySelection = ({ name, arr, data }) => {
         </H1>
         <Select>
           <Ul onClick={toggling}>
-            <li value="0">{selectedLanguage}</li>
             { isOpen && (
               arr.map((cat) => (
                 <li
@@ -47,6 +48,11 @@ const CategorySelection = ({ name, arr, data }) => {
                 </li>
               ))
             )}
+            {
+              !isOpen && (
+                <li>{selectedLanguage}</li>
+              )
+            }
           </Ul>
           <Arrow onClick={toggling} />
         </Select>
