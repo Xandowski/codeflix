@@ -13,6 +13,7 @@ function Home() {
       descVideo={dadosIniciais.categorias[0].videos[0].description}
       data={dadosIniciais.categorias}
       page="home"
+      link="https://www.youtube.com/user/aluracursosonline"
     />
   );
 }

@@ -7,10 +7,11 @@ import Footer from '../Footer';
 
 import CategorySelection from '../CategorySelection';
 import Carousel from '../Carousel';
+import VideoInformations from '../BannerMain/components/VideoInformations';
 
 const PageDefault = ({
   // eslint-disable-next-line react/prop-types
-  video, data, page, titleVideo, descVideo,
+  video, data, page, titleVideo, descVideo, link,
 }) => {
   const languages = ['Selecione uma linguagem', 'javascript', 'python', 'java', 'c#'];
 
@@ -18,17 +19,16 @@ const PageDefault = ({
     <>
       <Menu />
 
+      <BannerMain
+        pathVideo={video}
+        title={titleVideo}
+        description={descVideo}
+      >
+        <VideoInformations title={titleVideo} desc={descVideo} videoRef={page} link={link} />
+      </BannerMain>
+
       {
-        page !== 'canais' && (
-          <BannerMain
-            pathVideo={video}
-            title={titleVideo}
-            description={descVideo}
-          />
-        )
-      }
-      {
-        page === 'linguagens' && (
+        page === 'languages' && (
           <CategorySelection
             name="Linguagens"
             arr={languages}
@@ -66,7 +66,7 @@ const PageDefault = ({
 };
 
 PageDefault.propTypes = {
-  video: PropTypes.string.isRequired,
+  video: PropTypes.any.isRequired,
   page: PropTypes.string.isRequired,
   titleVideo: PropTypes.string.isRequired,
   descVideo: PropTypes.string.isRequired,

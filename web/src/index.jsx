@@ -11,8 +11,9 @@ import VideoPlayer from './pages/VideoPlayer';
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/videoplayer" component={VideoPlayer} />
       <Route path="/linguagens" component={Linguagens} />
+      <Route path="/linguagens/:id" component={VideoPlayer} />
+      <Route path="/:id" component={VideoPlayer} />
       <Route path="/" component={Home} exact />
       <Route component={() => (<div>Página 404</div>)} />
     </Switch>

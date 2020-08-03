@@ -5,15 +5,17 @@ import {
   Section, Div, Button,
 } from './styles';
 
-const VideoInformations = ({ title, desc }) => (
+const VideoInformations = ({
+  title, desc, videoRef, link,
+}) => (
   <Section>
     <h1>{title}</h1>
     <p>{desc}</p>
     <Div>
-      <Button as={Link} to="/videoplayer">
+      <Button as={Link} to={videoRef}>
         Play
       </Button>
-      <Button href="https://www.youtube.com/user/aluracursosonline" target="_blank">
+      <Button href={link} target="_blank">
         More Info
       </Button>
     </Div>
@@ -23,6 +25,8 @@ const VideoInformations = ({ title, desc }) => (
 VideoInformations.propTypes = {
   title: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
+  videoRef: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default VideoInformations;
