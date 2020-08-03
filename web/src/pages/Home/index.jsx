@@ -3,7 +3,7 @@ import React from 'react';
 import PageDefault from '../../components/PageDefault';
 import dadosIniciais from '../../data/dados_iniciais.json';
 
-const Video = 'http://localhost:3000/static/media/conheca-o-canal-da-Alura.28d3761d.mp4';
+import Video from '../../assets/videos/conheca-o-canal-da-Alura.mp4';
 
 function Home() {
   return (

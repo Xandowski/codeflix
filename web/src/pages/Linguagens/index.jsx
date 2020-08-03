@@ -3,7 +3,7 @@ import React, { } from 'react';
 import PageDefault from '../../components/PageDefault';
 import dadosLinguagens from '../../data/dados-linguagens.json';
 
-const Video = 'http://localhost:3000/static/media/20-previsoes-para-2020.6cd3043a.mp4';
+import Video from '../../assets/videos/20-previsoes-para-2020.mp4';
 
 const Linguagens = () => {
   const data = [dadosLinguagens.categorias[0], dadosLinguagens.categorias[1]];
