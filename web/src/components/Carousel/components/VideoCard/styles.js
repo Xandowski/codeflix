@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const VideoCardContainer = styled.a`
+const VideoCardContainer = styled.a`
   overflow: hidden;
   cursor: pointer;
   color: white;
@@ -25,3 +25,5 @@ export const VideoCardContainer = styled.a`
     margin-left: 20px;
   }
 `;
+
+export default VideoCardContainer;

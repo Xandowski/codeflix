@@ -28,7 +28,6 @@ export const Select = styled.div`
   opacity: 0.8;
   `;
 
-
 export const Ul = styled.ul`
   /* border: 1px solid white; */
   position: absolute;

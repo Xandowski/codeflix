@@ -5,13 +5,11 @@ import dadosIniciais from '../../data/dados_iniciais.json';
 
 function Home() {
   return (
-    <PageDefault 
+    <PageDefault
       urlVideo={dadosIniciais.categorias[0].videos[0].url}
       data={dadosIniciais.categorias}
-      page='home'
-    >
-      
-    </PageDefault>
+      page="home"
+    />
   );
 }
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const BannerMainContainer = styled.section`
+const BannerMainContainer = styled.section`
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -36,3 +36,5 @@ export const BannerMainContainer = styled.section`
     background: linear-gradient(0deg, #141414 0%, transparent 100%);
   }
 `;
+
+export default BannerMainContainer;

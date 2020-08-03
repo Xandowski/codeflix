@@ -30,6 +30,8 @@ body{
 body{
   background-color: #141414;
   overflow-x: hidden;
+  --bodyPaddingTop: 65px;
+  padding-top: var(--bodyPaddingTop);
 }
 
 a {
@@ -41,3 +43,9 @@ ul{
   list-style: none;
 }
 
+@media (max-width: 800px) {
+  body {
+    --bodyPaddingTop: 40px;
+    padding-top: var(--bodyPaddingTop);
+  }
+}
