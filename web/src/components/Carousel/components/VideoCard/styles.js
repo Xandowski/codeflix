@@ -5,20 +5,20 @@ const VideoCardContainer = styled.a`
   cursor: pointer;
   color: white;
   flex: 0 0 298px;
-  width: 298px;
+  width: 300px;
   height: 197px;
   background-image: ${({ url }) => `url(${url})`};
-  background-size: cover;
-  background-position: center;
+  background-size: 330px 260px;
+  background-repeat: no-repeat;
+  background-position: center center;
   position: relative;
   display: flex;
-  align-items: flex-end;
-  /* padding: 16px; */
+  align-items: center;
 
-  transition: opacity .3s;
+  transition: width 0.8s, linear 0.5s;
   &:hover,
   &:focus {
-    opacity: .5;
+    width: 350px;
   }
   
   &:not(:first-child) {

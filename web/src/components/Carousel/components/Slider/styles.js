@@ -29,8 +29,8 @@ const SliderItem = styled.li`
   margin-right: 16px;
   img {
     margin: 16px;
-    width: 298px;
-    height: 197px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
   }
 `;

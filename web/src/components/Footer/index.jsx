@@ -1,19 +1,27 @@
 import React from 'react';
+import { GitHub } from 'react-feather';
 import FooterBase from './styles';
+import ReactLogo from '../../assets/images/react-logo.png';
 
 function Footer() {
   return (
     <FooterBase>
-      <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
-      </a>
-      <p>
-        Orgulhosamente criado durante a
+
+      <a href="https://www.alura.com.br/" target="blank">
+        Imersão React
         {' '}
-        <a href="https://www.alura.com.br/">
-          Imersão React da Alura
-        </a>
-      </p>
+        <img src={ReactLogo} alt="react logo" style={{ width: '30px' }} />
+        {' '}
+        <span>Alura.</span>
+      </a>
+      <a href="https://github.com/Xandowski/" target="blank">
+        Xandowski
+        {' '}
+        <span>
+          <GitHub />
+        </span>
+        {' '}
+      </a>
     </FooterBase>
   );
 }

@@ -66,7 +66,7 @@ const PageDefault = ({
 };
 
 PageDefault.propTypes = {
-  video: PropTypes.any.isRequired,
+  video: PropTypes.string.isRequired,
   page: PropTypes.string.isRequired,
   titleVideo: PropTypes.string.isRequired,
   descVideo: PropTypes.string.isRequired,
